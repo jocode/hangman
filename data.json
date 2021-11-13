@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Lenguajes de Programación",
+        "items": [
+            "PHP",
+            "JavaScript",
+            "Python",
+            "Java",
+            "Kotlin",
+            "Matlab",
+            "C",
+            "Ruby",
+            "Swift",
+            "Go",
+            "Typescript",
+            "CoffeeScript",
+            "Scala",
+            "Dart",
+            "R",
+            "Perl",
+            "Haskell",
+            "Clojure",
+            "Erlang",
+            "CPP"
+        ]
+    },
+    {
+        "name": "Electrónica",
+        "items": [
+            "Resistencia",
+            "Capacitor",
+            "Inductor",
+            "Circuito",
+            "Amplificador",
+            "Transistor",
+            "Filtros",
+            "Redes",
+            "Malla",
+            "Nodo",
+            "Ohm",
+            "Voltaje",
+            "Corriente",
+            "Potencia"
+        ]
+    },
+    {
+        "name": "Modalidades de grado",
+        "items": [
+            "Pasantia",
+            "Tesis",
+            "Semillero",
+            "Emprendimiento",
+            "Articulo",
+            "Promedio"
+        ]
+    }
+]

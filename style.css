@@ -1,0 +1,70 @@
+:root {
+    --hangman-color: #c4c4c4;
+}
+
+.container {
+    border: 1px solid var(--hangman-color);
+    border-radius: 3%;
+    padding: 1em;
+}
+
+body {
+    margin: 2em 0;
+}
+
+.btn-letter {
+  font-size: 1.2rem;
+  width: 2.5em;
+  height: 2.5em;
+  margin: 0.2em;
+  text-transform: capitalize;
+}
+
+#wordSpotlight {
+  margin: 1em 0;
+  font-size: 2em;
+  color: darkslategrey;
+}
+
+.hangman {
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  height: 160px;
+  width: 100px;
+  padding-top: 20px;
+}
+
+.hangmanContainer {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 2em;
+    display: inline-block;
+    border-left: 10px solid var(--hangman-color);
+    border-top: 10px solid var(--hangman-color);
+    
+    height: 200px;
+    width: 100px;
+    padding-top: 20px;
+}
+
+.soga {
+    position: absolute;
+    width: 4px;
+    height: 24px;
+    top: 0;
+    left: 42px;
+    background-color: var(--hangman-color);
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        width: 100vw;
+        margin: 0;
+        border: none;
+        padding: 0;
+    }
+    .btn-letter {
+        font-size: .85rem;
+    }
+}
+    
