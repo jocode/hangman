@@ -17,6 +17,7 @@ body {
   width: 2.5em;
   height: 2.5em;
   margin: 0.2em;
+  padding: 0;
   text-transform: capitalize;
 }
 
@@ -64,7 +65,7 @@ body {
         padding: 0;
     }
     .btn-letter {
-        font-size: .85rem;
+        font-size: .8rem;
     }
 }
     

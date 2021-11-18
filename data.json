@@ -44,14 +44,76 @@
         ]
     },
     {
-        "name": "Modalidades de grado",
+        "name": "Géneros Musicales",
         "items": [
-            "Pasantia",
-            "Tesis",
-            "Semillero",
-            "Emprendimiento",
-            "Articulo",
-            "Promedio"
+            "Clasica",
+            "Blues",
+            "Jazz",
+            "RockAndRoll",
+            "Gospel",
+            "Soul",
+            "Rock",
+            "Metal",
+            "Country",
+            "Funk",
+            "Disco",
+            "House",
+            "Techno",
+            "Pop",
+            "Reggae",
+            "Flamenco",
+            "Salsa",
+            "HipHop",
+            "Reggaeton",
+            "Vallenato",
+            "Andina",
+            "Bolero",
+            "Cumbia",
+            "Balada"
+        ]
+    },
+    {
+        "name": "Deportes",
+        "items": [
+            "Badminton",
+            "Beisbol",
+            "Balonmano",
+            "Basquetbol",
+            "Bowling",
+            "Canotaje",
+            "Esgrima",
+            "Futbol",
+            "Hockey",
+            "Judo",
+            "Karate",
+            "Rugbi",
+            "Softbol",
+            "Voleibol",
+            "Wakeboard",
+            "Waterpolo"
+        ]
+    },
+    {
+        "name": "Marcas de Carro",
+        "items": [
+            "Renault",
+            "Chevrolet",
+            "Mazda",
+            "Nissan",
+            "Kia",
+            "Toyota",
+            "Volkswagen",
+            "Suzuki",
+            "Ford",
+            "HYUNDAI",
+            "Peugeot",
+            "Honda",
+            "JMC",
+            "Foton",
+            "Jeep",
+            "BMW",
+            "Fiat",
+            "Mitsubishi"
         ]
     }
 ]

@@ -3,6 +3,7 @@
  * @author Johan Mosquera
  * @version 1.0
  */
+
 // Global variables
 let data = [];
 let items = [];
@@ -37,15 +38,15 @@ function chooseRandomTheme() {
 function generateRandomWord() {
   answer =
     items[Math.floor(Math.floor(Math.random() * items.length))].toUpperCase();
-  console.log(answer);
 }
 
 function generateButtons() {
-  let buttonLetters = "abcdefghijklmnñopqrstuvwxyz"
+  // let buttonLetters = "abcdefghijklmnñopqrstuvwxyz"
+  let buttonLetters = "qwertyuiopasdfghjklñzxcvbnm"
     .split("")
     .map((letter, index) => {
       let divContainer = "";
-      if (index > 0 && index % 9 == 0) {
+      if (index > 0 && index % 10 == 0) {
         divContainer = '</div><div class="mb-2">';
       }
       return (
